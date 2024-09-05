@@ -33,32 +33,7 @@ public sealed record Program
     public static async Task Main(string[] args)
     {
         // await PushJournal();
-
-        // string isoMsg = IsoFunctions.GenerateFinancialMessage("5559405048128222", 1000, "shjbhsd");
-
-        // await Echo();
-        await KeyExchange();
-
-        // var isoMsg = IsoFunctions.GenerateEchoMessage();
-
-        // _client.Connect();
-
-        // await Task.Delay(5000);
-
-        // var sndCtrl = _client.SendExpectingResponse(isoMsg, 10000);
-        // // sndCtrl.Request.ReceivedMessage;
-        // sndCtrl.WaitCompletion();
-
-        // sndCtrl.Request.WaitResponse();
-
-        // object response = sndCtrl.Request.ReceivedMessage;
-
-        // // Console.WriteLine(Util.ByteArrayToString(isoMsg));
-
-        // // Util.SendClientRequest(ip, port, isoMsg);
-
-
-        // Console.WriteLine(response.ToString());
+        // await KeyExchange();
     }
 
     static async Task Echo()
